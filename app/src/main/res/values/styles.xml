@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppThemeCrashLib" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+    </style>
+
+    <style name="UserPickAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_down_tipsy</item>
+        <item name="android:windowExitAnimation">@anim/slide_up_tipsy</item>
+    </style>
+
+    <style name="UserPickDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent_white_dialog</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+
+    </style>
+
+
+
+    <declare-styleable name="MaterialMenuView">
+        <attr name="mm_color" format="color"/>
+        <attr name="mm_scale" format="integer"/>
+        <attr name="mm_transformDuration" format="integer"/>
+        <attr name="mm_pressedDuration" format="integer"/>
+        <attr name="mm_strokeWidth" format="integer"/>
+        <attr name="mm_rtlEnabled" format="boolean"/>
+    </declare-styleable>
+</resources>

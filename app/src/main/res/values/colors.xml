@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- standard colors -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- MusicMessenger colors -->
+    <color name="mm_blue">#3b5998</color>
+    <color name="mm_blue_status_lollipop">#283d69</color>
+    <color name="mm_purple">#693194</color>
+    <color name="mm_red">#fc3d39</color>
+    <color name="mm_notif_red">#ff3b30</color>
+    <color name="mm_join_me_color">#2181f7</color>
+    <color name="mm_rate_app_blue_color">#3c5a9a</color>
+    <color name="mm_light_blue">#007aff</color>
+    <color name="transparent_blue">#F23b5998</color>
+    <color name="selected_tabs">#2196f3</color>
+    <color name="mm_grey_medium">#808080</color>
+    <color name="mm_grey_light_1">#cccccc</color>
+    <color name="mm_grey_light_2">#e5e5e5</color>
+    <color name="mm_grey_light_3">#f9f9f9</color>
+    <color name="mm_grey_light_4">#f7f7f7</color>
+    <color name="mm_grey_light_5">#e3e3e3</color>
+    <color name="mm_grey_light_6">#acacac</color>
+    <color name="mm_grey_light_7">#a0a0a0</color>
+    <color name="mm_grey_internal_status_bar">#b3b3b3</color>
+    <color name="mm_grey_edit_status_bar">#606060</color>
+    <color name="edit_background_tab_pressed">#e5e5e5</color>
+    <color name="transparent_white">#CCffffff</color>
+    <color name="transparent_white_dialog">#F2ffffff</color>
+    <color name="transparent_black">#E6000000</color>
+    <color name="transparent_grey">#F2f9f9f9</color>
+
+
+    <!-- PagerSlidingTabStrip -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/mm_blue</item>
+    </integer-array>
+
+
+</resources>
